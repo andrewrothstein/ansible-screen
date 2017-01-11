@@ -1,0 +1,6 @@
+---
+- name: install screen
+  become: yes
+  become_user: root
+  package: name=screen state=present
+
