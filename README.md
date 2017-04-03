@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-screen.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-screen)
 andrewrothstein.screen
 =========
 
