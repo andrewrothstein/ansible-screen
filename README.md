@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-screen.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-screen)
 andrewrothstein.screen
 =========
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-screen.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-screen)
 
 Installs [screen](https://www.gnu.org/software/screen/)
 
