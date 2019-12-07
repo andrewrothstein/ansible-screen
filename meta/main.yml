@@ -15,7 +15,8 @@ galaxy_info:
         - all
     - name: Ubuntu
       versions:
-        - all
+        - bionic
+        - xenial
     - name: Alpine
       versions:
         - all
