@@ -1,6 +1,6 @@
 andrewrothstein.screen
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-screen.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-screen)
+![Build Status](https://github.com/andrewrothstein/ansible-screen/actions/workflows/build.yml/badge.svg)
 
 Installs [screen](https://www.gnu.org/software/screen/)
 
