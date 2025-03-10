@@ -1,4 +1,13 @@
 ---
-- hosts: all
+- name: Testing andrewrothstein.screen
+  hosts: all
   roles:
-    - role: '{{playbook_dir}}'
+    - role: '{{ playbook_dir }}'
+  tasks:
+    - name: Executing 'screen --version'
+      ansible.builtin.command: screen --version
+      changed_when: false
+      register: screen_test_output
+    - name: Output from 'screen --version'
+      ansible.builtin.debug:
+        msg: '{{ screen_test_output.stdout }}'
